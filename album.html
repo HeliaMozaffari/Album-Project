@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Favorite pictures</title>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/album.css">
+ 
+
+</head>
+<body>
+	<div class = "main_pic">
+	<center><h3>Choose 5 favourite pictures</h3></center>
+	
+		<button  value="cute4-2" id="cute4-2" onclick="addfav()"><img name="slide" width="600" height="500"></button>
+	</div>
+	<center><button id="fav" onclick="addfav()"> Add to the favourites</button><button id="fav" onclick="removefav()"> Remove from favorites</button></center>
+	<div class="pics">
+	Favorites:
+	<ol id="my_list" onclick="removefav()">
+	</ol>
+	</div>
+	
+
+		
+	<script src="js/album.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,33 @@
+
+.pics img {
+	transition: 1s;
+	padding: 15px;
+	width: 150px;
+	height: 100px;
+	
+
+	
+}
+.pics :hover {
+	
+  margin-left: auto;
+  transition: 1s;
+	transform: scale(1.2);
+}
+.main_pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ 
+} 
+.main_pic :hover {
+	 transition: 1s;
+  transform: scale(.9);
+  box-shadow:  10px 10px 5px #F5DEB3;
+}
+body{
+	background-color: #FFF8DC;
+}
+
+
